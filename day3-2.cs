@@ -7,7 +7,6 @@ class Transaction
     public string CustomerEmail { get; set; }
     public bool IsActive { get; set; }
 }
- 
 class Program
 {
     static void Main()

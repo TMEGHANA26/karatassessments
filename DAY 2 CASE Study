@@ -36,6 +36,7 @@ public class Chef : Staff
     }
  
     public override void Work()
+
     {
         Console.WriteLine($"{Name} is cooking.");
     }
@@ -44,6 +45,7 @@ public class VipWaiter : Waiter
 {
     public void PriorityServe()
     {
+        Orders.ServeFood();
         Console.WriteLine("Priority service for VIP guest completed.");
     }
  
